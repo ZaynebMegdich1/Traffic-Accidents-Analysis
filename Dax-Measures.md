@@ -13,41 +13,57 @@ This measure calculates the total number of people injured in traffic accidents 
 This measure calculates the total number of people killed in traffic accidents in 2024.
 
 ## 3. Total Accidents 2024
+
+```DAX
 2024 Total Accidents = SUM('2024_Month'[accidents])
 
 This measure calculates the total number of traffic accidents in 2024.
 
 ## 4. Total Injuries 2025
+
+```DAX
 2025 Injuries = SUM('2025_Months'[Blesses])
 
 This measure calculates the total number of people injured in traffic accidents in 2025.
 
 ## 5. Total Fatalities 2025
+
+```DAX
 2025 Fatalities = SUM('2025_Months'[Tues])
 
 This measure calculates the total number of people killed in traffic accidents in 2025.
 
 ## 6. Total Accidents 2025
+
+```DAX
 2025 Total Accidents = SUM('2025_Months'[Accidents])
 
 This measure calculates the total number of traffic accidents in 2025.
 
 ## 7. Accidents Change
+
+```DAX
 Accidents Change = DIVIDE( ([2025 Total Accidents]- [2024 Total Accidents]), [2024 Total Accidents])
 
 This measure calculates the percentage change in the total number of accidents between 2024 and 2025.
 
 ## 8. Injuries Change
+
+```DAX
 Injuries Change = DIVIDE( ([2025 Injuries]- [2024 Injuries]), [2024 Injuries])
 
 This measure calculates the percentage change in the number of injuries between 2024 and 2025.
 
 ## 9. Fatalities Change
+
+```DAX
 Fatalities Change = DIVIDE( ([2025 Fatalities]- [2024 Fatalities]), [2024 Fatalities])
 
 This measure calculates the percentage change in the number of fatalities between 2024 and 2025.
 
 ## 10. Month Table
+
+```DAX
 MonthTable = 
 
 ADDCOLUMNS(
