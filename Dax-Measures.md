@@ -5,7 +5,9 @@
 
 This measure calculates the total number of people injured in traffic accidents in 2024.
 
-## 2.Total Fatalities Killed 2024
+## 2. Total Fatalities Killed 2024
+
+```DAX
 2024 Fatalities = SUM('2024_Month'[tues])
 
 This measure calculates the total number of people killed in traffic accidents in 2024.
