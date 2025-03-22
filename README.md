@@ -5,3 +5,5 @@ This project involves the creation of a Power BI dashboard for analyzing traffic
 ## Data Source:
 The data is sourced from the [National Road Safety Observatory of Tunisia](https://onsr.nat.tn/onsr/index.php?page=4ar), represented in XML files that contain detailed records of traffic accidents in Tunisia.
 
+  ![image alt](https://github.com/ZaynebMegdich1/Traffic-Accidents-Analysis/blob/8cce83d9b8e7e67986e70b7d906f5f32a5820534/Dashboard-%20Traffic.PNG)
+
